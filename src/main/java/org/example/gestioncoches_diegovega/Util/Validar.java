@@ -1,4 +1,6 @@
-package org.example.gestioncoches_diegovega;
+package org.example.gestioncoches_diegovega.Util;
+
+import org.example.gestioncoches_diegovega.Clases.Coche;
 
 public class Validar {
     public static boolean matricula (Coche coche) {
