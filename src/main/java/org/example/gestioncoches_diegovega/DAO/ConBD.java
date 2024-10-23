@@ -1,4 +1,4 @@
-package org.example.gestioncoches_diegovega.Clases;
+package org.example.gestioncoches_diegovega.DAO;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;

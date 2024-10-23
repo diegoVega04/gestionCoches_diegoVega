@@ -1,8 +1,9 @@
-package org.example.gestioncoches_diegovega;
+package org.example.gestioncoches_diegovega.DAO;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.example.gestioncoches_diegovega.Clases.Coche;
+import org.example.gestioncoches_diegovega.App;
+import org.example.gestioncoches_diegovega.Modelo.Coche;
 import org.example.gestioncoches_diegovega.Util.*;
 import com.google.gson.Gson;
 import com.mongodb.client.MongoCursor;

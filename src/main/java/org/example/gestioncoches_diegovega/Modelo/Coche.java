@@ -1,10 +1,10 @@
-package org.example.gestioncoches_diegovega.Clases;
+package org.example.gestioncoches_diegovega.Modelo;
 
 import java.util.Objects;
 
 public class Coche {
     private String matricula, marca, modelo, tipo;
-    private String _id;
+    private String _id; //necesario para evitar problemas con mongoDB
 
     public Coche(String matricula, String marca, String modelo, String tipo) {
         this._id = matricula;

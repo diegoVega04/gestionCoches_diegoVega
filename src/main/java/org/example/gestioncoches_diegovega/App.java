@@ -8,7 +8,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.bson.Document;
-import org.example.gestioncoches_diegovega.Clases.ConBD;
+import org.example.gestioncoches_diegovega.DAO.ConBD;
 
 import java.io.IOException;
 

@@ -8,8 +8,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import org.example.gestioncoches_diegovega.CRUD;
-import org.example.gestioncoches_diegovega.Clases.Coche;
+import org.example.gestioncoches_diegovega.DAO.CRUD;
+import org.example.gestioncoches_diegovega.Modelo.Coche;
 import org.example.gestioncoches_diegovega.Util.Alert;
 import org.example.gestioncoches_diegovega.Util.Validar;
 
@@ -89,7 +89,7 @@ public class AppController implements Initializable {
 
         if (Validar.matricula(seleccionado)) {
             if (Validar.marcaModelo(marca.getText(), modelo.getText())) {
-                Coche c = new Coche(matricula.getText(), marca.getText(), modelo.getText(), tipo);
+                Coche c = new Coche(matricula.getText(), marca.getText(), modelo.getText(), menuTipo.getText());
 
                 CRUD.borrarCoche(seleccionado);
                 coches.remove(seleccionado);

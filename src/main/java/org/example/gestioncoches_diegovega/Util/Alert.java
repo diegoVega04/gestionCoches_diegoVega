@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Alert {
     public static void notificacion (String mensaje) {
-        JOptionPane.showMessageDialog(null, mensaje, "Notificacion",JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, mensaje, "Notificacion",JOptionPane.WARNING_MESSAGE);
     }
 
     public static int confirmacion (String mensaje) {
